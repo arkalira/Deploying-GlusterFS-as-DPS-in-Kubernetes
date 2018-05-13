@@ -1,0 +1,88 @@
+{
+  "clusters": [
+    {
+      "nodes": [
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "10.200.1.121"
+              ],
+              "storage": [
+                "10.200.1.121"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            "/dev/vdb"
+          ]
+        },
+        {
+        "node": {
+          "hostnames": {
+            "manage": [
+              "10.200.1.122"
+            ],
+            "storage": [
+              "10.200.1.122"
+            ]
+          },
+          "zone": 1
+        },
+        "devices": [
+          "/dev/vdb"
+        ]
+        },
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "10.200.1.123"
+              ],
+              "storage": [
+                "10.200.1.123"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            "/dev/vdb"
+          ]
+        },
+        {
+         "node": {
+           "hostnames": {
+             "manage": [
+               "10.200.1.124"
+             ],
+             "storage": [
+               "10.200.1.124"
+             ]
+           },
+           "zone": 1
+        },
+        "devices": [
+          "/dev/vdb"
+          ]
+        },
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "10.200.1.125"
+              ],
+              "storage": [
+                "10.200.1.125"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            "/dev/vdb"
+          ]
+        }
+      ]
+    }
+  ]
+}
