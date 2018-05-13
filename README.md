@@ -336,6 +336,6 @@ Creating cluster ... ID: 87fcab5a999fd7a27d84444cea12e765
  ```
  heketi-cli --server http://glusterfs-micro01:8888 --user admin --secret "SUPERPASSWORD" topology load --json=/etc/heketi/topology.json
  ```
- - But fails anyway. Then check the following: dns resolution, chage hostnames in topology.json to IPs, ssh access, gluster peer probe "IP" test... all is ok.
+ - But fails anyway. Then check the following: dns resolution, chage hostnames in topology.json to IPs, ssh access, gluster peer probe "IP" test, netstat looking for glusterd... all is ok.
 
  - To continue...
