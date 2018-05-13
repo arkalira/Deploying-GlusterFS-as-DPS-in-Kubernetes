@@ -19,9 +19,7 @@ apt install thin-provisioning-tools glusterfs-server glusterfs-client
 ```
 systemctl status glusterfs-server.service
 ```
-
 ### Heketi setup
-
 #### Install HEKETI
 
  - Install Heketi on one of the GlusterFS nodes, the project does not provide .deb packages (only rpm) so we need to install via tarball:
@@ -34,7 +32,6 @@ cd heketi
 cp heketi heketi-cli /usr/local/bin/
 heketi -v
 ```
-
 #### Create user
 
  - We also need to manually create the heketi user and the directory structures for the configuration:
